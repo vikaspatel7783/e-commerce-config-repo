@@ -13,8 +13,3 @@ spring.jpa.hibernate.ddl-auto=update
 # register to Eureka server
 eureka.instance.client.serverUrl.defaultZone=http://localhost:8761/eureka/
 
-# RabbitMQ configuration
-rabbitmq.exchange.name=order_track_exchange
-rabbitmq.queue.order.name=order_track_queue
-rabbitmq.binding.order.routing.key=order_track_routing_key
-
